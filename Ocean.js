@@ -36,3 +36,5 @@ btnClose.addEventListener('click', () => {
     pop.close();
     document.querySelector("body").style.overflowY = 'scroll';
 })
+
+const btnCalculate = document.querySelector("#btn-calculate");

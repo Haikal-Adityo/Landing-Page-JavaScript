@@ -424,3 +424,19 @@ footer {
         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
     }
 }
+
+#btn-add {
+    background: #2541B2;
+}
+
+label {
+    display: inline-block;
+    padding-top: 0.5%;
+    width: 200px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.box {
+    display: flex;
+}
