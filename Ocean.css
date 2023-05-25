@@ -293,7 +293,7 @@ header {
 }
 
 .textbox {
-    padding: 10%;
+    padding: 5%;
     font-size: 20px;
 }
 
@@ -430,8 +430,16 @@ footer {
 }
 
 #btn-add {
+    margin-top: 20px;
     width: 150px;
     background: #2541B2;
+}
+
+#btn-save {
+    width: 150px;
+    margin-top: auto;
+    display: block;
+    background: rgb(0, 172, 0);
 }
 
 label {
@@ -444,6 +452,19 @@ label {
 
 .box {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.add-box {
+    display: flexbox;
+    flex-flow: row;
+}
+
+.result {
+    margin-top: 15;
+    color: #03256C;
+    font-weight: 600;
 }
 
 input[type="text"][name="item"] {
@@ -453,4 +474,17 @@ input[type="text"][name="item"] {
     border-radius: 10px;
     margin-bottom: 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
-  }
+}
+
+.add-box input[type=text]{
+    width: 416px;
+    background: #F5F5F5;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-top: 20px ;
+    margin-bottom: 0px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+
+    height: 53px;
+    padding: 15px 27px;
+}

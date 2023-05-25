@@ -196,25 +196,34 @@
 
     <div class="container-fluid">
         <br><br><br><br>
-        <h3 style="text-align: center;font-weight: 600; font-size: 60px;">Kalkulator Sampah Plastik</h3>
+        <h3 style="text-align: center;font-weight: 600; font-size: 60px;">Plastic Trash Calculator</h3>
 
         <div class="textbox">
             <div class="box">
-                <label>Botol Plastik</label>
+                <label>Plastic Bottle</label>
                 <input type="text" name="item" id="item1" size="10" maxlength="10"><br>
             </div>
             
             <div class="box">
-                <label>Sedotan</label>
+                <label>Straw</label>
                 <input type="text" name="item" id="item2" size="10" maxlength="10"><br>
             </div>
 
             <div class="box">
-                <label>Puntung Rokok</label>
+                <label>Cigarrate Bud</label>
                 <input type="text" name="item" id="item3" size="10" maxlength="10"><br>
             </div>
+
+            <div class="added-box"></div>
+
             <button type="button" id="btn-calculate">Calculate</button><br>
-            <button type="button" id="btn-add">Add Item</button>
+
+            <button type="button" id="btn-add">Add Item</button><br>
+
+            <div class="add-box"></div>
+
+            <div class="result"></div>
+
         </div>
     </div>
 
@@ -267,6 +276,8 @@
             <li><a href="#">FAQs</a></li>
         </ul>
     </footer>
+
+    <p style="color: red; font-size:10px; margin-top:auto">*You can only add one item</p>
 
 </body>
 
