@@ -425,7 +425,12 @@ footer {
     }
 }
 
+#btn-calculate {
+    width: 150px;
+}
+
 #btn-add {
+    width: 150px;
     background: #2541B2;
 }
 
@@ -440,3 +445,12 @@ label {
 .box {
     display: flex;
 }
+
+input[type="text"][name="item"] {
+    width: 416px;
+    background: #F5F5F5;
+    border: 1px solid #5f5f5f;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+  }

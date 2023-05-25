@@ -37,4 +37,17 @@ btnClose.addEventListener('click', () => {
     document.querySelector("body").style.overflowY = 'scroll';
 })
 
+//*==============================================================================
+
 const btnCalculate = document.querySelector("#btn-calculate");
+const btnAdd = document.querySelector("#btn-add");
+var hasil = 0;
+
+const item1 = document.querySelector("#item1");
+const item2 = document.querySelector("#item2");
+const item3 = document.querySelector("#item3");
+
+btnCalculate.addEventListener('click', () => {
+    hasil = item1.value + item2.value + item3.value;
+
+})
