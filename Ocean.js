@@ -57,11 +57,13 @@ btnCalculate.addEventListener('click', () => {
         result.innerHTML = "<br> Total trash per year: " + hasil ;
     }
     else {
+        
         const hasil = (item1 + item2 + item3) * 365;
         result.innerHTML = "<br> Total trash per year: " + hasil ;
     }
 
 })
+
 
 btnAdd.addEventListener('click', () => {
     
@@ -89,3 +91,4 @@ btnAdd.addEventListener('click', () => {
     });
 
 })
+
